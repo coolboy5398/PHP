@@ -38,7 +38,7 @@ print ("Hellow World");
 printf("Hellow World %s","444")  ;
 print_r("Hellow World") ;
 
-printf("My name is %s %s。","55nav", "com"); // My name is 55nav com。
+printf("My name is %s %s。","55nav1", "com"); // My name is 55nav com。
 printf("My name is %1\$s %1\$s","55nav", "com"); // 在s前添加1\$或2\$.....表示后面的参数显示的位置，此行输出 My name is 55nav 55nav因为只显示第一个参数两次。
 printf("My name is %2\$s %1\$s","55nav", "com"); // My name is com 55nav
 
