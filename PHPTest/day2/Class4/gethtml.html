@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="gettest.php" method="get">
+    项目1:<input type="text" name="uName"/>
+    项目2:<input type="password" name="uPswd" />
+    项目2:<input type="password" name="age" />
+    <br />
+    爱好：
+<!--    <input type="checkbox" name="hobby1" value="篮球"/>篮球
+    <input type="checkbox" name="hobby2" value="足球"/>足球
+    <input type="checkbox" name="hobby3" value="排球"/>排球-->
+
+    <input type="checkbox" name="hobby[]" value="篮球"/>篮球
+    <input type="checkbox" name="hobby[]" value="足球"/>足球
+    <input type="checkbox" name="hobby[]" value="排球"/>排球
+    <br />
+    <input type="submit" value="提交"/>
+</form>
+<hr/>
+<a href="gettest.php?uName=123&uPswd=987">测试</a>
+<script>
+
+</script>
+</body>
+</html>
