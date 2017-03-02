@@ -2,6 +2,8 @@
 $v1=$_GET["uName"];
 $v2=$_GET["uPswd"];
 echo "v1=$v1,v2=$v2";
+echo "<hr/>";
+var_dump($_GET);
 /**
  * Created by PhpStorm.
  * User: dongzheng
