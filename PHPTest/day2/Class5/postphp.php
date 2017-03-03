@@ -5,7 +5,8 @@
  * Date: 2017/3/3
  * Time: 12:39
  */
-var_dump($_POST);
+echo '$hello world';
+var_dump($_GET);
 
 /*$n1=$_POST["n1"];
 $n2=$_POST["n2"];
