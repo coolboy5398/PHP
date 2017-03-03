@@ -41,6 +41,11 @@ print_r("Hellow World") ;
 printf("My name is %s %s。","55nav1", "com"); // My name is 55nav com。
 printf("My name is %1\$s %1\$s","55nav", "com"); // 在s前添加1\$或2\$.....表示后面的参数显示的位置，此行输出 My name is 55nav 55nav因为只显示第一个参数两次。
 printf("My name is %2\$s %1\$s","55nav", "com"); // My name is com 55nav
+echo "<br>";
+
+for ($x=1;$x<=3;$x++){
+    echo str_repeat("&nbsp;",(3-$x)).str_repeat("*",$x*2-1)."<br>";
+}
 //date_default_timezone_set("PRC");
 echo "<br>".date("y-m-d H:i:s");
 
