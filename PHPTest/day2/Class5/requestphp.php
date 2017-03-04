@@ -5,16 +5,12 @@
  * Date: 2017/3/3
  * Time: 12:39
  */
-if ($_POST==null)
-{
-    echo "请用POST方式传入数据";
-    return;
-}
+
 
 echo "<hr/>";
-$n1=$_POST["n1"];
-$n2=$_POST["n2"];
-$fuhao=$_POST["yunsuanfu"];
+$n1=$_REQUEST["n1"];
+$n2=$_REQUEST["n2"];
+$fuhao=$_REQUEST["yunsuanfu"];
 if (is_numeric($n1)==false || is_numeric($n2)==false)
 {
     $result="算数运算双方必须是数字型";
