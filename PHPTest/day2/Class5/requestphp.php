@@ -5,8 +5,15 @@
  * Date: 2017/3/3
  * Time: 12:39
  */
-
-
+echo "<pre>";
+var_dump($_GET);
+echo "</pre>";
+echo "<pre>";
+var_dump($_POST);
+echo "</pre>";
+echo "<pre>";
+var_dump($_REQUEST);
+echo "</pre>";
 echo "<hr/>";
 $n1=$_REQUEST["n1"];
 $n2=$_REQUEST["n2"];
