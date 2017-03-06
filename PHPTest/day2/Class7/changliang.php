@@ -18,3 +18,9 @@ echo "a=".a.",b=".constant("b").",c=".constant($str);
 {
     const d=5;//语法错误，非顶层代码
 }*/
+echo Nosff;
+echo"<br/>";
+//魔术常量
+echo __LINE__."<br/>";//当前行数
+echo __FILE__."<br/>";//当前文件路径
+echo __DIR__."<br/>";//当前文件所在目录路径
