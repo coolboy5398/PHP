@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="form.php" method="POST">
+    用户名：<input type="text" name="UserName"/>
+    <br/>
+    密 码：<input type="password" name="UserPwd"/>
+    <br/>
+    <input type="radio" name="sex" value="男">男
+    <input type="radio" name="sex" value="女">女
+    <br/>
+    <input type="checkbox" name="nation[]" value="中国">中国
+    <input type="checkbox" name="nation[]" value="外国">外国
+    <br/>
+    <select name="cars" >
+        <option value="别克">别克</option>
+        <option value="雪佛兰" selected>雪佛兰</option>//预选设置
+        <option value="大众">大众</option>
+        <option value="福特">福特</option>
+    </select>
+    <br/>
+    <textarea rows="10" cols="30" name="memo"></textarea>
+    <br/>
+    <input type="hidden" name="hid" value="董铮"/>
+    <input type="submit" value="提交"/>
+</form>
+</body>
+</html>

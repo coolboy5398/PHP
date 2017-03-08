@@ -15,3 +15,9 @@ echo "<pre>";
 var_dump($_GET); //var_dump 用于输出一个变量最完整的信息，包括变量名，长度，数据值
 //这里是输出"数组"$_GET
 echo "</pre>";
+
+$v3=$_GET["hobby"];
+for($i=0;$i<count($v3);$i++)
+{
+    echo "$v3[$i]<br>";
+}
